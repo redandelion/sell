@@ -2,31 +2,31 @@
 微信小程序
 
 
-API 列表
+#	API 列表
 
-商品列表（详情）：\<br>
- 	API :
-        GET /sell/buyer/product/list \<br>
-        参数： 无 \<br>
+#	商品列表（详情）：
+#	API :
+#        GET /sell/buyer/product/list 
+#        参数： 无 
         
-    返回值：\<br>
-	    {\<br>
-          "code": 0,\<br>
-          "msg": "成功",\<br>
-          "data": [\<br>
-            {\<br>
-              "name": "我的最爱",\<br>
-              "type": 1,\<br>
-              "foods": [\<br>
-                {\<br>
-                  "id": "id22131",\<br>
-                  "name": "烤良鸡翅",\<br>
-                  "price": 12.5,\<br>
-                  "description": "西班牙风味",\<br>
-                  "icon": "http://165465161.jpg"\<br>
-                }\<br>
-              ]\<br>
-            }\<br>
-          ]\<br>
-        }\<br>
- \<br>
+#    返回值：
+	    {
+#          "code": 0,
+#          "msg": "成功",
+#          "data": [
+#            {
+#              "name": "我的最爱",
+#              "type": 1,
+#             "foods": 
+#                {
+#                  "id": "id22131",
+#                  "name": "烤良鸡翅",
+#                  "price": 12.5,
+#                  "description": "西班牙风味",
+#                  "icon": "http://165465161.jpg"
+#                }
+#              ]
+#            }
+#          ]
+#        }
+
