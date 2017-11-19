@@ -16,7 +16,7 @@
 		    {
 		      "name": "我的最爱",
 		      "type": 1,
-		     "foods": 
+		     "foods": [
 			{
 			  "id": "id22131",
 			  "name": "烤良鸡翅",
@@ -24,6 +24,7 @@
 			  "description": "西班牙风味",
 			  "icon": "http://165465161.jpg"
 			}
+		      ]
 		    }
 		 ]
 	    }
