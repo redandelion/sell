@@ -127,7 +127,16 @@
 		    ]
 		  }
 		}
-
+#	取消订单API: POST
+	uri: /sell/buyer/order/cancel
+	参数：
+		openid：sadsaf1115641465165
+		orderId:1511671508556506623	
+	返回值：
+		{
+		  "code": 0,
+		  "msg": "成功"
+		}
 
 
 
