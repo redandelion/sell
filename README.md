@@ -48,7 +48,7 @@
 		  }
 		}
 	
-#	查询订单列表API:GET
+#	查询订单列表API: GET
 	uri: /sell/buyer/order/create
 	参数：
 		openid：sadsaf1115641465165
