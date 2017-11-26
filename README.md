@@ -31,11 +31,19 @@
 #	创建订单API：
 	uri:/sell/buyer/order/create
 	参数：
-		name:"我是大爷"
-		phone:15454845685
-		address:北理工
-		openid:sadsaf1115641465165
-		items:[{
-			productId:"123456",
-			productQuantity:3
-		}]
+	name:"我是大爷"
+	phone:15454845685
+	address:北理工
+	openid:sadsaf1115641465165
+	items:[{
+		productId:"123456",
+		productQuantity:3
+	}]
+	返回值：
+	{
+	  "code": 0,
+	  "msg": "成功",
+	  "data": {
+	    "orderId": "1511667150077554503"
+	  }
+	}
