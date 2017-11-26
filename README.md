@@ -4,9 +4,9 @@
 
 #	API 列表
 
-#	商品列表（详情）：
+#	商品列表（详情）：GET
 	API :
-    GET /sell/buyer/product/list 
+    uri: /sell/buyer/product/list 
     参数： 无             
     返回值：                               
 	    {     
@@ -28,8 +28,8 @@
 		    }
 		 ]
 	    }
-#	创建订单API：
-	uri:/sell/buyer/order/create
+#	创建订单API：POST
+	uri: /sell/buyer/order/create
 	参数：
 		name:"我是大爷"
 		phone:15454845685
