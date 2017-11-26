@@ -7,7 +7,7 @@
 #	商品列表（详情）：
 	API :
     GET /sell/buyer/product/list 
-	参数： 无             
+    参数： 无             
     返回值：                               
 	    {     
           "code": 0,
@@ -27,5 +27,15 @@
 		      ]
 		    }
 		 ]
-	    }
-
+	    }
+#	创建订单API：
+	uri:/sell/buyer/order/create
+	参数：
+		name:"我是大爷"
+		phone:15454845685
+		address:北理工
+		openid:sadsaf1115641465165
+		items:[{
+			productId:"123456",
+			productQuantity:3
+		}]
