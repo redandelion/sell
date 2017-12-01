@@ -138,8 +138,17 @@
 		  "msg": "成功"
 		}
 
-
-
+#	获取微信openid: GET
+	uri: /sell/buyer/wechat/login
+	参数：
+		code:15488487961468465148ss
+	返回值：
+		{
+		  "code": 0,
+		  "msg": "成功"
+		  "openid":"dkasjghiughiwuefgbuihguieg"
+		}
+	
 
 
 
